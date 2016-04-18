@@ -31,6 +31,22 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+	<style type="text/css">
+		 video {
+			 position: fixed;
+			 bottom: 0px;
+			 right: 0px;
+			 min-width: 100%;
+			 min-height: 100%;
+			 z-index: -1;
+			 overflow: hidden;
+		}
+		
+		#services  {
+			 background-color: white;
+		}
+		
+	</style>
 </head>
 
 <body id="page-top" class="index">
@@ -77,10 +93,14 @@
         <!-- /.container-fluid -->
     </nav>
 
+
+	<video autoplay="autoplay" loop="loop">
+		<source src="img/video/video.mp4" type="video/webm"></source>
+	</video>
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
+             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To Our Studio!</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
@@ -370,7 +390,7 @@
     </section>
 
     <!-- Clients Aside -->
-    <aside class="clients">
+    <aside class="clients" style="background-color: white;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -442,7 +462,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer style="background-color: white;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
