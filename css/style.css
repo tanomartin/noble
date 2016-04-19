@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+
+video {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+#services {
+	background-color: white;
+}
+
+#footer {
+	background-color: white;
+}
+
+.clients {
+	background-color: white;
+}
