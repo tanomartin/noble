@@ -45,3 +45,14 @@ video {
         table-layout: fixed;
     }
 }
+
+.overlay {
+   background:transparent; 
+   width:100%;
+   height:600px; /* your iframe height */
+}
+
+
+.gm-style {
+	pointer-events: none;
+}
