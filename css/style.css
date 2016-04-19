@@ -10,14 +10,38 @@ video {
 	overflow: hidden;
 }
 
-#services {
-	background-color: white;
+#logo {
+	width: 153px;
+	height: 106px;
+}
+
+#services, #mapa, #social {
+	background-color: #00adef;
 }
 
 #footer {
-	background-color: white;
+	background-color: #3a3a3a;
+	color: white;
 }
 
 .clients {
 	background-color: white;
+}
+
+#contact {
+	padding-bottom: 30px;
+}
+
+#social {
+	padding: 0px;
+	height: 120px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
 }
