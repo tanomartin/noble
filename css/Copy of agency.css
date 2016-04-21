@@ -9,7 +9,7 @@ body {
 }
 
 .text-primary {
-	color: #00adef
+	color: #fed136
 }
 
 p {
@@ -26,11 +26,11 @@ a,a:hover,a:focus,a:active,a.active {
 }
 
 a {
-	color: #00adef
+	color: #fed136
 }
 
 a:hover,a:focus,a:active,a.active {
-	color: #2ECCFA
+	color: #fec503
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -53,8 +53,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn-primary {
 	color: #fff;
-	background-color: #00adef;
-	border-color: #00adef;
+	background-color: #fed136;
+	border-color: #fed136;
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700
@@ -63,8 +63,8 @@ h1,h2,h3,h4,h5,h6 {
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary
 	{
 	color: #fff;
-	background-color: #2ECCFA;
-	border-color: #00adef
+	background-color: #fec503;
+	border-color: #f6bf01
 }
 
 .btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary
@@ -74,19 +74,19 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active
 	{
-	background-color: #00adef;
-	border-color: #00adef
+	background-color: #fed136;
+	border-color: #fed136
 }
 
 .btn-primary .badge {
-	color: #00adef;
+	color: #fed136;
 	background-color: #fff
 }
 
 .btn-xl {
 	color: #fff;
-	background-color: #2ECCFA;
-	border-color: #2ECCFA;
+	background-color: #fed136;
+	border-color: #fed136;
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -98,8 +98,8 @@ h1,h2,h3,h4,h5,h6 {
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
 	{
 	color: #fff;
-	background-color: #2ECCFA;
-	border-color: #00adef
+	background-color: #fec503;
+	border-color: #f6bf01
 }
 
 .btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl {
@@ -108,12 +108,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active
 	{
-	background-color: #00adef;
-	border-color: #00adef
+	background-color: #fed136;
+	border-color: #fed136
 }
 
 .btn-xl .badge {
-	color: #00adef;
+	color: #fed136;
 	background-color: #fff
 }
 
@@ -123,14 +123,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #00adef;
+	color: #fed136;
 	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial,
 		cursive
 }
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active
 	{
-	color: #2ECCFA
+	color: #fec503
 }
 
 .navbar-default .navbar-collapse {
@@ -138,8 +138,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .navbar-toggle {
-	background-color: #00adef;
-	border-color: #00adef
+	background-color: #fed136;
+	border-color: #fed136
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -148,7 +148,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus
 	{
-	background-color: #00adef
+	background-color: #fed136
 }
 
 .navbar-default .nav li a {
@@ -160,20 +160,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #00adef;
+	color: #fed136;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #00adef
+	background-color: #fed136
 }
 
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
 	{
 	color: #fff;
-	background-color: #2ECCFA
+	background-color: #fec503
 }
 
 @media ( min-width :768px) {
@@ -434,7 +434,7 @@ section h3.section-subheading {
 	height: 80px;
 	position: absolute;
 	z-index: 100;
-	background-color: #00adef;
+	background-color: #fed136;
 	color: #fff;
 	border-radius: 100%;
 	border: 7px solid #f1f1f1;
@@ -610,7 +610,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-	border-color: #00adef;
+	border-color: #fed136;
 	box-shadow: none
 }
 
@@ -687,7 +687,7 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active
 	{
-	background-color: #00adef
+	background-color: #fed136
 }
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus {
@@ -773,12 +773,12 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 
 ::-moz-selection {
 	text-shadow: none;
-	background: #00adef
+	background: #fed136
 }
 
 ::selection {
 	text-shadow: none;
-	background: #00adef
+	background: #fed136
 }
 
 img::selection {
@@ -790,5 +790,5 @@ img::-moz-selection {
 }
 
 body {
-	webkit-tap-highlight-color: #00adef
+	webkit-tap-highlight-color: #fed136
 }

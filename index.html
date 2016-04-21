@@ -37,7 +37,28 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  
+
+<script src="js/jquery.js"></script>
+<script>
+	$(document).ready(function() {
+		$('#map').addClass('scrolloff');
+		$('#overlay').on("mouseup", function() { 
+			$('#map').addClass('scrolloff');
+		});
+		$('#overlay').on("mousedown", function() { 
+			$('#map').removeClass('scrolloff');
+		});
+		$("#map").mouseleave(function() { 
+			$('#map').addClass('scrolloff'); 
+		});
+
+	});
+
+	$(function() {
+		$("#sliderFotos").load("slider2/deep-minified.html");
+	});
+	
+</script>
 </head>
 
 <body id="page-top" class="index">
@@ -53,14 +74,16 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand page-scroll" href="#page-top">Fútbol
-					Noble</a>
+				<a class="navbar-brand page-scroll" href="#page-top"> <img
+					src="img/logo.png" width="150px"
+					style="margin-top: -23px; margin-left: 60px" />
+				</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav" style="margin-left: 280px;">
 					<li class="hidden"><a href="#page-top"></a></li>
 					<li><a class="page-scroll" href="#services">Nosotros</a></li>
 					<li><a class="page-scroll" href="#portfolio">Torneos</a></li>
@@ -82,9 +105,17 @@
 	<header>
 		<div class="container">
 			<div class="intro-text">
-				<div class="intro-lead-in">----------</div>
 				<div class="intro-heading">Aca va un Slogan</div>
-				<a href="#services" class="page-scroll btn btn-xl">Mas sobre nostros</a>
+				<div class="intro-lead-in">
+					<a href=""><span id="socialIcon"
+						class="glyphicon glyphicon-record"></span></a> <a href=""><span
+						id="socialIcon" class="glyphicon glyphicon-record"></span></a> <a
+						href=""><span id="socialIcon"
+						class="glyphicon glyphicon-record"></span></a> <a href=""><span
+						id="socialIcon" class="glyphicon glyphicon-record"></span></a>
+				</div>
+				<a href="#services" class="page-scroll btn btn-xl">Mas sobre
+					nostros</a>
 			</div>
 		</div>
 	</header>
@@ -132,6 +163,7 @@
 				</div>
 			</div>
 		</div>
+		<div id="sliderFotos"></div>
 	</section>
 
 	<!-- Portfolio Grid Section -->
@@ -407,17 +439,17 @@
 			</div>
 		</div>
 	</section>
-	<div id="mapa" align="center">
-		<iframe
+	<div id="overlay" class="map">
+		<iframe id="map"
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22104.16900986332!2d-58.43419778157246!3d-34.558507977847654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5a5ce869abd%3A0xd4c29ce0d4ad7e70!2sJulio+Argentino+Noble%2C+Cdad.+Aut%C3%B3noma+de+Buenos+Aires%2C+Argentina!5e0!3m2!1ses-419!2sar!4v1461079142067"
-			width="100%" height="600px" style="pointer-events:none; border:0;"></iframe>
+			width="100%" height="600px" frameborder="0"></iframe>
 	</div>
-	
+
 	<!-- Social Section -->
 	<section id="social">
 		<p>SOCIAL</p>
 	</section>
-	
+
 	<!-- Footer -->
 	<footer id="footer">
 		<div class="container">

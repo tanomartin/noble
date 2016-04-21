@@ -15,8 +15,12 @@ video {
 	height: 106px;
 }
 
-#services, #mapa, #social {
+#services, #overlay, #social {
 	background-color: #00adef;
+}
+
+#services {
+	padding-bottom: 0px;	
 }
 
 #footer {
@@ -29,12 +33,25 @@ video {
 }
 
 #contact {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 #social {
 	padding: 0px;
 	height: 120px;
+}
+
+#socialIcon {
+	margin-right: 35px;
+	color: white;
+}
+
+#socialIcon:hover{
+	color: #00adef;
+}
+
+#sliderFotos{
+	margin-top: 50px
 }
 
 @media (min-width: 768px){
@@ -52,7 +69,6 @@ video {
    height:600px; /* your iframe height */
 }
 
-
-.gm-style {
+.scrolloff {
 	pointer-events: none;
 }
