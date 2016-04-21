@@ -19,6 +19,13 @@ video {
 	background-color: #00adef;
 }
 
+#portfolio {
+	background-color: #222;
+	background-image: url(../img/torneos/fondo1.jpg);
+	background-position: center;
+	background-repeat: no-repeat
+}
+
 #services {
 	padding-bottom: 0px;	
 }
