@@ -11,8 +11,10 @@ video {
 }
 
 #logo {
-	width: 153px;
+	width: 150px;
 	height: 106px;
+	margin-top: -23px; 
+	margin-left: 60px;
 }
 
 #services, #overlay, #social {
