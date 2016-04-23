@@ -9,12 +9,23 @@ video {
 	z-index: -1;
 	overflow: hidden;
 }
+.logo-img {
+    width: 100%;
+}
 
-#logo {
-	width: 150px;
-	height: 106px;
-	margin-top: -23px; 
-	margin-left: 60px;
+.logotype-cp-header {
+    width: 78px;
+    display: inline-block;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.header-row.collapsed .logotype-cp-header {
+    width: 50px;
+    margin-top: 7px;
+    margin-bottom:7px;
 }
 
 #services, #overlay, #social {
@@ -23,7 +34,7 @@ video {
 
 #portfolio {
 	background-color: #222;
-	background-image: url(../img/torneos/fondo1.jpg);
+	background-image: url(../img/torneos/fondo2.jpg);
 	background-position: center;
 	background-repeat: no-repeat
 }
@@ -37,7 +48,7 @@ video {
 	color: white;
 }
 
-.clients {
+.clients {x
 	background-color: white;
 }
 
@@ -61,6 +72,17 @@ video {
 
 #sliderFotos{
 	margin-top: 50px
+}
+
+.fa-users, .fa-futbol-o {
+	color:#FFF;
+	font-size:35px;
+	padding-bottom:20px;
+}
+
+
+form .col-md-12 {
+	text-align:center;
 }
 
 @media (min-width: 768px){
