@@ -1406,9 +1406,6 @@ img {
 	transition: all .2s ease-in-out
 }
 
-.img-circle {
-	border-radius: 50%
-}
 
 hr {
 	margin-top: 20px;
@@ -4649,6 +4646,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		padding-top: 15px;
 		padding-bottom: 15px
 	}
+
 }
 
 .navbar-form {
@@ -4782,7 +4780,6 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 		float: left !important
 	}
 	.navbar-right {
-		float: right !important;
 		margin-right: -15px
 	}
 	.navbar-right ~.navbar-right {

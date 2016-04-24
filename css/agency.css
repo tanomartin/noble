@@ -5,7 +5,7 @@ body {
 }
 
 .text-muted {
-	color: #777
+	color: #FFF
 }
 
 .text-primary {
@@ -97,9 +97,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
 	{
-	color: #fff;
-	background-color: #2ECCFA;
-	border-color: #00adef
+	color: #2ECCFA;
+	background-color: #FFF;
 }
 
 .btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl {
@@ -195,7 +194,7 @@ h1,h2,h3,h4,h5,h6 {
 		border-radius: 3px
 	}
 	.navbar-default.navbar-shrink {
-		background-color: #424242;
+		background-color: rgba(0, 0, 0, 0.4);
 		padding: 10px 0
 	}
 	.navbar-default.navbar-shrink .navbar-brand {
@@ -206,7 +205,7 @@ h1,h2,h3,h4,h5,h6 {
 		margin-top:-35px;
 	}
 	.navbar-brand img {
-		margin-top:-50px;
+		margin-top:-45px;
 	}
 }
 
@@ -578,7 +577,7 @@ LO COMENTO POR AHORA PARA VERIFICAR ESPACIADO EN SECCION TORNEO*/
 
 .team-member h4 {
 	margin-top: 25px;
-	margin-bottom: 0;
+	margin-bottom: 25px;
 	text-transform: none
 }
 
@@ -800,3 +799,4 @@ img::-moz-selection {
 body {
 	webkit-tap-highlight-color: #00adef
 }
+
