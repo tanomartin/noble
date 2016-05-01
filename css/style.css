@@ -74,12 +74,13 @@ video {
 	margin-top: 50px
 }
 
-.fa-users, .fa-futbol-o {
+.fa-users, .fa-futbol-o, .fa-globe {
 	color:#FFF;
 	font-size:35px;
 	padding-bottom:20px;
 
 }
+
 
 
 form .col-md-12 {
@@ -198,9 +199,17 @@ ul.social-icons li a:hover {
 	position:relative;
 	top:15px;
 }
-.circulo2 .fa-users,.circulo2 .fa-futbol-o{
+.circulo2 .fa-users,.circulo2 .fa-futbol-o,.circulo2 .fa-globe{
 	position: relative;
     top: 28px;
+}
+.circulo2 .fa-map-marker {
+	left:5px;
+	color:#FFF;
+	font-size:40px;
+	padding-bottom:20px;
+	position:relative;
+	top:28px;
 }
 .logo-seccion {
 	text-align:center;
