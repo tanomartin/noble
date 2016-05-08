@@ -48,7 +48,13 @@
     height:200px;
     background-color:#121212;
     }
-    
+
+    /* ESTE TMP ME LO TOMA */
+    .nav-tel {
+
+    margin-left:0px;
+    }
+
 }
 
 @media screen and (max-width:630px) {

@@ -270,8 +270,12 @@ ul.social-icons-footer li a:hover {
 .nav-tel {
 	background-color:#00aeef;
 	position: relative;
-    top: 15px;
+    margin-left:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:10px;
 }
+
 
 .col-md-3 img {
 	width:250px;
