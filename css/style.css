@@ -81,8 +81,6 @@ video {
 
 }
 
-
-
 form .col-md-12 {
 	text-align:center;
 }
@@ -254,6 +252,7 @@ ul.social-icons-footer li a:hover {
 .circulo2 .fa-users,.circulo2 .fa-futbol-o,.circulo2 .fa-globe{
 	position: relative;
     top: 28px;
+    font-size:30px;
 }
 .circulo2 .fa-map-marker {
 	left:5px;
