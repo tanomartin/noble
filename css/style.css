@@ -34,9 +34,11 @@ video {
 
 #portfolio {
 	background-color: #222;
-	background-image: url(../img/torneos/fondo2.jpg);
+	background-image: url(../img/torneos/fondo-torneo5.jpg);
 	background-position: center;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
 }
 
 #services {
