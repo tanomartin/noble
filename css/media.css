@@ -150,14 +150,15 @@ ul.social-icons-footer li a {
 @media screen and (max-width:372px) {
 
     .datos-1{
-        display:block;
-        left:80px;
+        display:inline-block;
+        left:40px;
 
     }
     .datos-2 {
         right: 0px;
         float: none;
         padding: 0px;
-        left:80px;
+        left:50px;
+        display:inline-block;
     }
 }
