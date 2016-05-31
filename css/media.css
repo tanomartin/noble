@@ -79,10 +79,16 @@
     background-color:#121212;
     }
 
-    .nav-tel {
+    .nav-tel li{
     margin-left:0px;
+}
 
-    }
+.navbar-default .nav .nav-tel {
+    display:none;
+}
+.navbar-default .nav .nav-tel a {
+    display:none;
+}
 
     .list-inline>li {
         padding-right:0px;

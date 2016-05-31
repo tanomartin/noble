@@ -275,6 +275,13 @@ ul.social-icons-footer li a:hover {
     border-radius:10px;
 }
 
+.nav-tel:hover{
+	background-color:#121212;
+}
+
+.nav-tel a {
+	color:#121212;
+}
 
 .col-md-3 img {
 	width:250px;
