@@ -88,17 +88,16 @@ form .col-md-12 {
 }
 
 .texto-cumple {
-	font-size:50px;
+	font-size:30px;
 	color:#00aeef;
 	text-align:center;
 	font-family: 'Fredoka One', cursive;
 }
 .texto-noble {
-	font-size:65px;
+	font-size:40px;
 	color:#00aeef;
 	text-align:center;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-style:italic;
+	font-family:  'Fredoka One', cursive;
 }
 
 /* EMPIEZA PRUEBA DE LOGOS  */
