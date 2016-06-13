@@ -4813,7 +4813,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 
 .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover
 	{
-	color: #00aeef;
+	/*color: #00aeef;*/
 	background-color: transparent
 }
 

@@ -20,9 +20,8 @@
     }
     .datos-2 {
 
-        float:right;
-        padding-top:20px;
-        right:80px;
+    left:0px;
+    text-align:center;
 
     }
 
@@ -127,11 +126,7 @@ section h2.section-heading {
     font-size:40px;
 
 }
-    .datos-1 p,.datos-2 p {
 
-        font-size:12px;
-
-    }
 
 }
 
@@ -139,7 +134,7 @@ section h2.section-heading {
 
 
 .datos-1 {
-    left:40px;
+    text-align:center;
 }
 ul.social-icons-footer li a {
     font-size:20px;
@@ -157,7 +152,7 @@ ul.social-icons-footer li a {
 
     .datos-1{
         display:inline-block;
-        left:40px;
+        left:50px;
 
     }
     .datos-2 {
@@ -166,5 +161,11 @@ ul.social-icons-footer li a {
         padding: 0px;
         left:50px;
         display:inline-block;
+    }
+        .datos-1 p,.datos-2 p {
+
+        font-size:14px;
+        text-align:left;
+
     }
 }
